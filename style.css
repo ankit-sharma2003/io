@@ -14,7 +14,6 @@ body {
   color: #ffffff;
 }
 
-/* NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
@@ -100,9 +99,6 @@ body {
   left: 0;
   bottom: -6px;
 }
-/* =========================
-   MOBILE NAVBAR
-========================= */
 
 .nav-toggle {
   display: none;
@@ -118,7 +114,6 @@ body {
   border-radius: 2px;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
 
   .nav-links {
@@ -152,7 +147,6 @@ body {
   }
 }
 
-/* HERO */
 .hero {
   min-height: 100vh;
   padding-top: 70px;
@@ -163,7 +157,6 @@ body {
   text-align: center;
 }
 
-/* GLOW */
 .glow-bg {
   position: absolute;
   width: 600px;
@@ -268,9 +261,6 @@ body {
   opacity: 0.4;
   font-size: 0.85rem;
 }
-/* =========================
-   STATS / PROOF SECTION
-========================= */
 
 .stats-section {
   padding: 6rem 2rem;
@@ -335,9 +325,6 @@ body {
   font-size: 0.95rem;
   opacity: 0.75;
 }
-/* =========================
-   ABOUT / STORY SECTION
-========================= */
 
 .about-section {
   padding: 7rem 2rem;
@@ -354,7 +341,6 @@ body {
   align-items: center;
 }
 
-/* TEXT */
 .about-title {
   font-size: 2.8rem;
   font-weight: 700;
@@ -374,15 +360,10 @@ body {
   opacity: 0.85;
 }
 
-/* VISUAL CARD */
 .about-visual {
   display: flex;
   justify-content: center;
 }
-
-/* =========================
-   ABOUT – CREATIVE SIGNAL BOX
-========================= */
 
 .about-card {
   position: relative;
@@ -397,7 +378,6 @@ body {
   overflow: hidden;
 }
 
-/* soft ambient glow */
 .about-card::before {
   content: "";
   position: absolute;
@@ -411,7 +391,6 @@ body {
   pointer-events: none;
 }
 
-/* header */
 .about-card-title {
   font-size: 1.3rem;
   font-weight: 500;
@@ -425,7 +404,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* list */
+
 .about-links {
   list-style: none;
   padding: 0;
@@ -438,7 +417,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* tiny dot indicator */
 .about-links li::before {
   content: "";
   position: absolute;
@@ -451,7 +429,6 @@ body {
   opacity: 0.7;
 }
 
-/* links */
 .about-links a {
   text-decoration: none;
   font-size: 1rem;
@@ -461,14 +438,12 @@ body {
   display: inline-block;
 }
 
-/* label text */
 .about-links a span {
   font-size: 0.95rem;
   color: rgba(255,255,255,0.45);
   margin-left: 4px;
 }
 
-/* hover magic */
 .about-links a:hover {
   color:  #fb923c;
   transform: translateX(4px);
@@ -483,7 +458,6 @@ body {
   border-radius: 4px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .about-container {
     grid-template-columns: 1fr;
@@ -501,9 +475,6 @@ body {
     display: none;
   }
 }
-/* =========================
-   EXPERIENCE / TIMELINE
-========================= */
 
 .experience-section {
   padding: 7rem 2rem;
@@ -529,7 +500,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* TIMELINE */
 .timeline {
   position: relative;
   margin: auto;
@@ -587,7 +557,6 @@ body {
   opacity: 0.8;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .timeline {
     padding-left: 1.5rem;
@@ -607,7 +576,6 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-/* EXPERIENCE TITLE + DATE ALIGNMENT */
 
 .timeline-header {
   display: flex;
@@ -627,7 +595,6 @@ body {
   white-space: nowrap;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .timeline-header {
     flex-direction: column;
@@ -645,10 +612,6 @@ body {
     padding-left: 1.5rem;
   }
 }
-
-/* =========================
-   SKILLS SECTION
-========================= */
 
 .skills-section {
   padding: 7rem 2rem;
@@ -674,14 +637,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* GRID */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2.2rem;
 }
 
-/* CARD */
 .skill-card {
   padding: 2.3rem 2rem;
   border-radius: 20px;
@@ -708,15 +669,11 @@ body {
   opacity: 0.75;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .skills-title {
     font-size: 2.3rem;
   }
 }
-/* =========================
-   ACHIEVEMENTS SECTION
-========================= */
 
 .achievements-section {
   padding: 7rem 2rem;
@@ -742,13 +699,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* LIST */
 .achievements-list {
   display: grid;
   gap: 2.5rem;
 }
 
-/* ITEM */
 .achievement-item {
   padding: 2.2rem 2rem;
   border-radius: 20px;
@@ -782,7 +737,6 @@ body {
   opacity: 0.8;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .achievement-item {
     grid-template-columns: 1fr;
@@ -793,9 +747,6 @@ body {
     min-width: auto;
   }
 }
-/* =========================
-   EDUCATION SECTION
-========================= */
 
 .education-section {
   padding: 7rem 2rem;
@@ -821,7 +772,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* CARD */
 .education-card {
   padding: 3rem 2.5rem;
   border-radius: 22px;
@@ -831,7 +781,6 @@ body {
   box-shadow: 0 35px 70px rgba(0,0,0,0.35);
 }
 
-/* ITEM */
 .education-item h3 {
   font-size: 1.3rem;
   font-weight: 600;
@@ -850,14 +799,12 @@ body {
   opacity: 0.8;
 }
 
-/* DIVIDER */
 .education-divider {
   height: 1px;
   background: rgba(255,255,255,0.12);
   margin: 2rem 0;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .education-title {
     font-size: 2.3rem;
@@ -867,7 +814,6 @@ body {
     padding: 2.2rem 1.8rem;
   }
 }
-/* EDUCATION ROW LAYOUT */
 
 .education-item {
   display: flex;
@@ -888,7 +834,6 @@ body {
   font-weight: 500;
 }
 
-/* MOBILE FIX */
 @media (max-width: 600px) {
   .education-item {
     flex-direction: column;
@@ -903,12 +848,9 @@ body {
     max-width: 100%;
   }
 }
-/* =========================
-   CONTACT SECTION (VIBE MATCH)
-========================= */
 
 .contact-section {
-  padding: 5rem 2rem 2.5rem; /* controlled vertical rhythm */
+  padding: 5rem 2rem 2.5rem; 
   display: flex;
   justify-content: center;
 }
@@ -919,7 +861,6 @@ body {
   text-align: center;
 }
 
-/* TITLE */
 .contact-title {
   font-size: 2.8rem;
   font-weight: 700;
@@ -938,7 +879,6 @@ body {
   margin-bottom: 3.5rem;
 }
 
-/* CARDS GRID */
 .contact-cards {
   display: grid;
   grid-template-columns: repeat(4, minmax(320px, 1fr));
@@ -946,7 +886,6 @@ body {
   justify-content: center;
 }
 
-/* CARD — SAME DNA AS ACHIEVEMENTS */
 .contact-card {
   padding: 2.2rem 2rem;
   border-radius: 20px;
@@ -969,7 +908,6 @@ body {
   box-shadow: 0 30px 60px rgba(0,0,0,0.4);
 }
 
-/* ICON — GRADIENT ACCENT */
 .contact-card i {
   font-size: 1.6rem;
   margin-bottom: 0.6rem;
@@ -978,7 +916,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* TEXT */
 .contact-card h4 {
   font-size: 1rem;
   font-weight: 500;
@@ -990,7 +927,6 @@ body {
   word-break: break-word;
 }
 
-/* FOOTER */
 .contact-footer {
   margin-top: 9rem;
   margin-bottom: 0cm;
@@ -998,7 +934,6 @@ body {
   opacity: 0.55;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .contact-cards {
   display: grid;
@@ -1017,8 +952,6 @@ body {
     font-size: 2.2rem;
   }
 }
-
-/* MOBILE POLISH */
 
 @media (max-width: 768px) {
 
@@ -1096,9 +1029,6 @@ body {
   margin-right: 8px;
   font-size: 0.95rem;
 }
-/* =========================
-   RESUME MODAL
-========================= */
 
 .resume-modal {
   position: fixed;
@@ -1127,7 +1057,6 @@ body {
   overflow: hidden;
 }
 
-/* HEADER */
 .resume-modal-header {
   padding: 1.2rem 1.6rem;
   display: flex;
@@ -1166,7 +1095,6 @@ body {
   opacity: 1;
 }
 
-/* BODY */
 .resume-body {
   flex: 1;
 }
@@ -1178,10 +1106,10 @@ body {
   background: white;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .resume-modal-content {
     width: 95%;
     height: 90vh;
   }
 }
+
