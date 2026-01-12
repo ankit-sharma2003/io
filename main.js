@@ -1,7 +1,3 @@
-/* ===============================
-   ROLE TYPEWRITER EFFECT
-================================ */
-
 const roles = [
   "Content Strategist",
   "UGC Creator",
@@ -35,11 +31,6 @@ function typeEffect() {
 }
 
 typeEffect();
-
-
-/* ===============================
-   STATS COUNT-UP (ON SCROLL)
-================================ */
 
 const statNumbers = document.querySelectorAll(".stat-number");
 let statsStarted = false;
@@ -84,11 +75,6 @@ if (statsSection) {
   statsObserver.observe(statsSection);
 }
 
-
-/* ===============================
-   ABOUT CARD PARALLAX
-================================ */
-
 const aboutCard = document.querySelector(".about-card");
 
 if (aboutCard) {
@@ -98,11 +84,6 @@ if (aboutCard) {
     aboutCard.style.transform = `rotateX(${y}deg) rotateY(${x}deg)`;
   });
 }
-
-
-/* ===============================
-   FADE-IN ON SCROLL
-================================ */
 
 const fadeElements = document.querySelectorAll(".fade");
 
@@ -118,11 +99,6 @@ const fadeObserver = new IntersectionObserver(
 );
 
 fadeElements.forEach(el => fadeObserver.observe(el));
-
-
-/* ===============================
-   NAVBAR SMOOTH SCROLL
-================================ */
 
 document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", e => {
@@ -141,11 +117,6 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     });
   });
 });
-
-
-/* ===============================
-   ACTIVE NAV LINK (FIXED)
-================================ */
 
 const navLinks = document.querySelectorAll(".nav-links a");
 const sections = document.querySelectorAll("section[id]");
@@ -166,16 +137,11 @@ const navObserver = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.35 // IMPORTANT for Contact section
+    threshold: 0.35 
   }
 );
 
 sections.forEach(section => navObserver.observe(section));
-
-
-/* ===============================
-   RESUME MODAL LOGIC
-================================ */
 
 const openResumeBtn = document.getElementById("openResume");
 const resumeModal = document.getElementById("resumeModal");
@@ -200,9 +166,6 @@ if (openResumeBtn && resumeModal && closeResumeBtn) {
     }
   });
 }
-/* ===============================
-   MOBILE NAV TOGGLE (SAFE)
-================================ */
 
 document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.getElementById("navToggle");
