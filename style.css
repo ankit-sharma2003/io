@@ -96,9 +96,6 @@ body {
   left: 0;
   bottom: -6px;
 }
-/* =========================
-   MOBILE NAVBAR
-========================= */
 
 .nav-toggle {
   display: none;
@@ -264,9 +261,6 @@ body {
   opacity: 0.4;
   font-size: 0.85rem;
 }
-/* =========================
-   STATS / PROOF SECTION
-========================= */
 
 .stats-section {
   padding: 6rem 2rem;
@@ -331,9 +325,6 @@ body {
   font-size: 0.95rem;
   opacity: 0.75;
 }
-/* =========================
-   ABOUT / STORY SECTION
-========================= */
 
 .about-section {
   padding: 7rem 2rem;
@@ -376,10 +367,6 @@ body {
   justify-content: center;
 }
 
-/* =========================
-   ABOUT – CREATIVE SIGNAL BOX
-========================= */
-
 .about-card {
   position: relative;
   padding: 2.4rem;
@@ -393,7 +380,6 @@ body {
   overflow: hidden;
 }
 
-/* soft ambient glow */
 .about-card::before {
   content: "";
   position: absolute;
@@ -434,7 +420,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* tiny dot indicator */
 .about-links li::before {
   content: "";
   position: absolute;
@@ -497,9 +482,6 @@ body {
     display: none;
   }
 }
-/* =========================
-   EXPERIENCE / TIMELINE
-========================= */
 
 .experience-section {
   padding: 7rem 2rem;
@@ -603,7 +585,6 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-/* EXPERIENCE TITLE + DATE ALIGNMENT */
 
 .timeline-header {
   display: flex;
@@ -634,10 +615,6 @@ body {
     margin-top: 0.3rem;
   }
 }
-
-/* =========================
-   SKILLS SECTION
-========================= */
 
 .skills-section {
   padding: 7rem 2rem;
@@ -703,9 +680,6 @@ body {
     font-size: 2.3rem;
   }
 }
-/* =========================
-   ACHIEVEMENTS SECTION
-========================= */
 
 .achievements-section {
   padding: 7rem 2rem;
@@ -782,9 +756,6 @@ body {
     min-width: auto;
   }
 }
-/* =========================
-   EDUCATION SECTION
-========================= */
 
 .education-section {
   padding: 7rem 2rem;
@@ -892,12 +863,9 @@ body {
     max-width: 100%;
   }
 }
-/* =========================
-   CONTACT SECTION (VIBE MATCH)
-========================= */
 
 .contact-section {
-  padding: 5rem 2rem 2.5rem; /* controlled vertical rhythm */
+  padding: 5rem 2rem 2.5rem; 
   display: flex;
   justify-content: center;
 }
@@ -935,7 +903,6 @@ body {
   justify-content: center;
 }
 
-/* CARD — SAME DNA AS ACHIEVEMENTS */
 .contact-card {
   padding: 2.2rem 2rem;
   border-radius: 20px;
@@ -958,7 +925,6 @@ body {
   box-shadow: 0 30px 60px rgba(0,0,0,0.4);
 }
 
-/* ICON — GRADIENT ACCENT */
 .contact-card i {
   font-size: 1.6rem;
   margin-bottom: 0.6rem;
@@ -967,7 +933,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* TEXT */
 .contact-card h4 {
   font-size: 1rem;
   font-weight: 500;
@@ -1072,9 +1037,6 @@ body {
   margin-right: 8px;
   font-size: 0.95rem;
 }
-/* =========================
-   RESUME MODAL
-========================= */
 
 .resume-modal {
   position: fixed;
